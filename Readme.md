@@ -1,0 +1,1 @@
+Nessa primeira etapa usamos o comando "create" logo em seguida o nome desejado para seu banco de dados e em seguida o comando use com o nome do banco para voce trabalhar nele 
