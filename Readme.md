@@ -14,9 +14,15 @@ Nessa etapa fiz a inserção de dados nas tabelas desejadas com a sintaxe "inset
 
 Versão 4: Chaves estrangeiras para interligar dados de tabelas diferentes;
 
-Nessa etapa fizemos a declaração das chaves estrangeiras com o comando "alter table" + nome da tabela, adiciono
+Nessa etapa fiz a declaração das chaves estrangeiras com o comando "alter table" + nome da tabela, adiciono
 a contraint que eh um subnome para seu campo e depois o "foreign key" + "references" com o nome da tabela em que
 o campo esta presente 
 
+Versão 5: Garantindo Privilégios;
 
+Nessa etapa fiz a criação e declaração dos privilégios para cada usuário com o comando "create user " + nome_do_
+usuario @ "localhost" que segnifica que o usuário esta sendo criado na maquina local, logo em seguida "identified
+by" + senha entre aspas.
+
+Depois o comante "grant prvileges" + os privilégios desejados
 
